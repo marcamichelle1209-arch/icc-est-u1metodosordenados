@@ -1,4 +1,9 @@
 public class App {
+
+    public static void main(String[] args){
+        metodoBurbuja();
+    }
+    
     public static void metodoBurbuja(){
 
         System.out.println("Metodo Burbuja");

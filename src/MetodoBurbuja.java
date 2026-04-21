@@ -1,8 +1,5 @@
 public class MetodoBurbuja { 
 
-
-
-
     int[] arreglo;  //global lista de enteros
 
     //Constructor vacio
@@ -18,7 +15,7 @@ public class MetodoBurbuja {
     }
     public void ordenarAscendente(){
         for (int i =0; i<arreglo.length;i++){
-            for (int j =i+1; i<arreglo.length;j++){
+            for (int j =i+1; j<arreglo.length;j++){
                 if(arreglo[i] > arreglo [j]){
                     int aux = arreglo[i];
                     arreglo [i] =arreglo [j];
@@ -28,16 +25,10 @@ public class MetodoBurbuja {
         }
     }
 
-    public void imprimirArreglo(){
-        for(int num: arreglo){
-            System.out.print(num + ",");
-        }
-        System.out.println();
-    }
-
+    
     public void ordenarDescendente(){
         for (int i =0; i<arreglo.length;i++){
-            for (int j =i+1; i<arreglo.length;j++){
+            for (int j =i+1; j<arreglo.length;j++){
                 if(arreglo[i] <  arreglo [j]){
                     int aux = arreglo[i];
                     arreglo [i] =arreglo [j];
@@ -47,11 +38,9 @@ public class MetodoBurbuja {
         }
     }
     public void imprimirArreglo(){
-        for(int num: arreglo){
+        for(int num : arreglo){
             System.out.print(num + ",");
         }
         System.out.println();
     }
-   
-    
 }
