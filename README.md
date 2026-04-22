@@ -4,7 +4,7 @@
 ## Estudiante: Michelle Marca
 
 
-## Practica 1.2 Metodo Burbuja sort
+## Practica 1.1 Metodo Burbuja 
 ### Fecha: 20/04/2026
 
 ### Descripcion:
